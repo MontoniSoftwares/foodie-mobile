@@ -1,8 +1,4 @@
-import axios from "axios";
-
 const api = axios.create({
-  baseURL: "https://foodie-jxgjtdqi9-montonisoftwares-projects.vercel.app", // Substitua pelo seu endereço
+  baseURL: "http://54.207.185.73:3001",
   timeout: 10000,
 });
-
-export default api;
